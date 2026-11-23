@@ -37,3 +37,14 @@ for szam in k:
 print("Negatív számok darabszáma:", negativ)
 print("Nullák darabszáma:", nulla)
 
+import random
+
+d = []
+
+for i in range(50):
+    kocka1 = random.randint(1, 6)
+    kocka2 = random.randint(1, 6)
+    d.append((kocka1, kocka2))
+
+for i in range(0, 50, 10):
+    print(d[i:i+10])
