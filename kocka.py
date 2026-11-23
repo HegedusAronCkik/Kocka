@@ -23,7 +23,7 @@ db=int(input("Hányasával írjam ki a számokat? "))
 for i in range(0,len(k),db):
     print(k[i:i+db])
 
-# 4. feladat
+    # 4. feladat
 print("\n4. feladat")
 negativ = 0
 nulla = 0
