@@ -22,3 +22,18 @@ db=int(input("Hányasával írjam ki a számokat? "))
 
 for i in range(0,len(k),db):
     print(k[i:i+db])
+
+# 4. feladat
+print("\n4. feladat")
+negativ = 0
+nulla = 0
+
+for szam in k:
+    if szam < 0:
+        negativ += 1
+    elif szam == 0:
+        nulla += 1
+
+print("Negatív számok darabszáma:", negativ)
+print("Nullák darabszáma:", nulla)
+
